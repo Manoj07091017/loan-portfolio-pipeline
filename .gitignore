@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+profiles.yml
+
+# Data (Lending Club is ~1.6 GB; GitHub rejects files over 100 MB)
+data/
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Airflow
+airflow/logs/
+airflow/*.db
+airflow/*.cfg
+
+# OS / editor
+.DS_Store
+.vscode/
